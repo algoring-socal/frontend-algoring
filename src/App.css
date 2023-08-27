@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+/* MainPage */
+.main-container {
+  height: 500px;
+  background-color: lightblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.title {
+  background-color: pink;
+  /* height: 100px; */
+  flex-grow: 1;
+}
+
+.middle {
+  background-color: antiquewhite;
+  flex-grow: 3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.contents {
+  display: flex;
+  justify-content: center; 
+  align-items: flex-start; 
+}
+
+.go-to-btn {
+  margin-right: 20px;
+  align-self: flex-start;
+}
+
+.main-chr-container {
+
+}
+
+
+
+/* MainChacter */
+.main-chr-bg {
+
+}
+
+.main-chr-img {
+
+}
+
+
+/* Library */
+.thumb-nail-container {
+
+}
+
+
+.level-icon-show {
+
+}
+
+.level-icon-hide {
+  
+}
